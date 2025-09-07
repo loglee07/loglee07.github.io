@@ -102,3 +102,7 @@ main {
 .blog-content {
   padding: 30px 0; /* just spacing, no box */
 }
+.blog-content h1 {
+  text-align: center;
+}
+
