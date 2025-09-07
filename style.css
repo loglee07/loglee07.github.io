@@ -1,33 +1,58 @@
-/* Reset some default browser styles */
+/* Reset */
 body {
   margin: 0;
   font-family: Arial, sans-serif;
   background: #f8f9fa;
   color: #333;
-  text-align: center;
 }
 
-/* Header */
+/* Fixed header */
 header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
   background: #222;
   color: white;
-  padding: 2rem 1rem;
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  z-index: 1000;
 }
 
-header h1 {
-  margin: 0;
-  font-size: 2.5rem;
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-/* Blog cards */
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.home-button {
+  background: #0073e6;
+  color: white;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.home-button:hover {
+  background: #005bb5;
+}
+
+/* Main content */
 main {
+  padding-top: 90px; /* avoid being hidden behind header */
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 2rem;
   gap: 1.5rem;
 }
 
+/* Blog cards */
 .blog-card {
   background: white;
   border-radius: 12px;
@@ -60,4 +85,3 @@ main {
 .blog-card a:hover {
   background: #005bb5;
 }
-
