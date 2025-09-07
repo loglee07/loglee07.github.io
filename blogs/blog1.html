@@ -67,11 +67,13 @@
 }
 
 .gallery img {
-  width: 100%;         /* image fills figure */
+  width: 100%;           /* fills the figure width */
+  height: 200px;         /* force a uniform height */
+  object-fit: cover;     /* crops the image nicely without stretching */
   border-radius: 8px;
-  object-fit: cover;
   display: block;
 }
+
 
 .gallery figcaption {
   text-align: center;
