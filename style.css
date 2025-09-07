@@ -121,10 +121,12 @@ figcaption {
   margin-bottom: 30px; /* space after block */
 }
 
-.side-image-section img {
+.side-image {
+  float: left;
   width: 200px;
+  margin: 0 15px 10px 0;
   border-radius: 8px;
-  flex-shrink: 0;
 }
+
 
 
