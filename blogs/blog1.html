@@ -3,8 +3,77 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Blog Post 1</title>
+  <title>Blog Post #1: Exploring Blogging</title>
   <link rel="stylesheet" href="../style.css">
+  <style>
+    /* Center blog title */
+    .blog-content h1 {
+      text-align: center;
+      margin-bottom: 40px;
+      font-size: 2.2rem;
+    }
+
+    /* Section headings */
+    .blog-content h2 {
+      font-size: 1.6rem;
+      margin-top: 30px;
+      margin-bottom: 15px;
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 5px;
+    }
+
+    /* Paragraph spacing */
+    .blog-content p {
+      margin-bottom: 20px;
+      line-height: 1.7;
+    }
+
+    /* Optional: add subtle indentation */
+    .blog-content p:first-of-type {
+      text-indent: 20px;
+    }
+
+    /* Side image layout */
+    .side-image-section {
+      display: flex;
+      align-items: flex-start;
+      gap: 20px;
+      margin-bottom: 30px;
+    }
+
+    .side-image {
+      width: 250px;
+      border-radius: 8px;
+      flex-shrink: 0;
+    }
+
+    .side-image-section p {
+      flex: 1;
+    }
+
+    /* Gallery layout */
+    .gallery {
+      display: flex;
+      gap: 15px;
+      margin-top: 20px;
+      flex-wrap: wrap;
+    }
+
+    .gallery img {
+      width: calc(33% - 10px);
+      border-radius: 8px;
+      object-fit: cover;
+    }
+
+    /* Bottom image */
+    .bottom-image {
+      width: 100%;
+      max-width: 600px;
+      display: block;
+      margin: 20px auto;
+      border-radius: 8px;
+    }
+  </style>
 </head>
 <body>
 
@@ -19,9 +88,37 @@
   <!-- Blog content -->
   <main>
     <div class="blog-content">
-      <h1 style="text-align: center;">Blog Post #1: Exploring Blogging</h1>
-      <p>Full content of blog post 1 goes here. You can write paragraphs, add images, code blocks, etc.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+
+      <h1>Blog Post #1: Exploring Blogging</h1>
+
+      <h2>About Me</h2>
+      <p>Hello everyone! My name is Logan Lee, and I am excited to be part of this class at SDSU. Currently, I am a computer science major and so far, I plan to go into AI engineering or something along those lines. I enjoy doing things such as playing video games, which is why I want to go into something related to technology.</p>
+
+      <div class="gallery">
+        <img src="../images/about1.jpg" alt="About me 1">
+        <img src="../images/about2.jpg" alt="About me 2">
+        <img src="../images/about3.jpg" alt="About me 3">
+      </div>
+
+      <h2>Looking Ahead</h2>
+      <p>While I don't consider myself a traditional reader, I know that I am still actively engaging with words and texts every day. I am excited to use this class in order to strengthen my writing skill and possibly find some ways to connect with reading that is fun and natural to me. I'm looking forward to learning with everybody this semester!</p>
+
+      <h2>My Literacy Spaces</h2>
+      <p>While I am not really into reading books for fun, I do still read and write a lot in other spaces. One of the main things I enjoy learning right now is investing. For example, I follow a Reddit community about investing called 
+        <a href="https://www.reddit.com/r/FinancialPlanning/" target="_blank">Financial Planning</a>. In those spaces, reading and writing show up in ways I actually enjoy. I really like to read the problems other people have and the tips the community gives which I then take into my own consideration for my investments. I also like to ask questions about investing advice and love to learn from experienced investors.</p>
+
+      <h2>My Reading & Writing Experiences</h2>
+      <div class="side-image-section">
+        <img src="../images/reading.jpg" alt="Reading & Writing" class="side-image">
+        <p>Honestly, I have never been the type of reader who reads for fun. Everyone has childhood favorites such as Harry Potter, or Percy Jackson, but the only book I really enjoyed was Diary of a Wimpy Kid. Reading outside of school was never something that I ever wanted or thought to do. The only times I read a novel or articles for research projects is when it is assigned as homework from schools.</p>
+      </div>
+      <p>While I don't read very much for fun, it doesn't mean that I dislike stories. I actually really enjoy them a lot, just in different forms like movies, shows, and even in games. I would describe myself as a reader who reads more practical stuff like information, not really to get lost in a good story.</p>
+      <p>As a writer, I often struggle with finding the right words and how to word certain things, but I know that I can express myself better when I just start writing rather than overthinking. I hope in this class I can learn new strategies that make writing feel less like an "assignment" and more like a tool I can use for future uses. I also want to unlearn the idea that reading has to mean sitting down for hours and having to force myself to read a long book, as there are many ways to read and engage with texts.</p>
+
+      <h2>What I Like Talking About</h2>
+      <p>Something that I love to talk about is sports, specifically baseball right now. I usually talk about baseball with my friends, mostly in person, but sometimes through texts or platforms like Discord. These interactions might not seem like your traditional reading and writing, but they are. These conversations include communication, interpretation and expression just digitally and socially.</p>
+      <img src="../images/baseball.jpg" alt="Baseball" class="bottom-image">
+
     </div>
   </main>
 
