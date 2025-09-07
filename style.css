@@ -122,8 +122,10 @@ figcaption {
 }
 
 .side-image {
-  width: 200px;        /* adjust image size */
+  float: left;
+  width: 200px;
+  margin: 0 15px 10px 0;
   border-radius: 8px;
-  flex-shrink: 0;      /* stops image from shrinking */
 }
+
 
