@@ -19,22 +19,29 @@ header {
   z-index: 1000;
 }
 
-/* Flex container for title and button */
+/* Header container: flex layout */
 .header-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
   max-width: 1200px;
   margin: 0 auto;
 }
 
-/* Logo on left */
+/* Logo */
 .logo {
   font-size: 1.5rem;
   font-weight: bold;
 }
 
-/* Home button on right */
+/* Right side wrapper */
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+/* Home button styling */
 .home-button {
   background: #0073e6;
   color: white;
@@ -52,7 +59,7 @@ header {
 
 /* Main content */
 main {
-  padding-top: 90px; /* avoids overlap with fixed header */
+  padding-top: 90px; /* leave space for fixed header */
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
