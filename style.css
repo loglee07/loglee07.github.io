@@ -21,11 +21,11 @@ header {
 
 /* Flex container for title and button */
 .header-container {
-  display: flex;          /* enable flexbox */
-  justify-content: space-between; /* left + right */
-  align-items: center;    /* vertically centered */
-  max-width: 1200px;      /* optional: keep content centered on large screens */
-  margin: 0 auto;         /* center container */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 /* Logo on left */
@@ -36,27 +36,23 @@ header {
 
 /* Home button on right */
 .home-button {
-  background: #0073e6;    /* button color */
-  color: white;            /* text color */
-  text-decoration: none;   /* remove underline */
+  background: #0073e6;
+  color: white;
+  text-decoration: none;
   padding: 0.4rem 0.8rem;
   border-radius: 6px;
   font-size: 0.9rem;
-  display: inline-block;   /* makes padding work correctly */
-}
-
-.home-button:hover {
-  background: #005bb5;    /* hover effect */
-  text-decoration: none;  /* make sure no underline on hover */
+  display: inline-block;
 }
 
 .home-button:hover {
   background: #005bb5;
+  text-decoration: none;
 }
 
 /* Main content */
 main {
-  padding-top: 90px; /* avoid being hidden behind header */
+  padding-top: 90px; /* avoids overlap with fixed header */
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
