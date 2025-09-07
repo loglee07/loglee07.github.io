@@ -114,4 +114,16 @@ figcaption {
   color: #555;
   margin-top: 5px;
 }
+.side-image-section {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.side-image {
+  width: 200px;        /* adjust image size */
+  border-radius: 8px;
+  flex-shrink: 0;      /* stops image from shrinking */
+}
 
