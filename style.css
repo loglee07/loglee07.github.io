@@ -1,1 +1,63 @@
+/* Reset some default browser styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f8f9fa;
+  color: #333;
+  text-align: center;
+}
+
+/* Header */
+header {
+  background: #222;
+  color: white;
+  padding: 2rem 1rem;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+/* Blog cards */
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2rem;
+  gap: 1.5rem;
+}
+
+.blog-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 1.5rem;
+  width: 280px;
+  text-align: left;
+}
+
+.blog-card h2 {
+  margin-top: 0;
+  font-size: 1.5rem;
+}
+
+.blog-card p {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.blog-card a {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background: #0073e6;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.blog-card a:hover {
+  background: #005bb5;
+}
 
