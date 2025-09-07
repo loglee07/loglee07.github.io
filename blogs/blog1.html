@@ -53,17 +53,33 @@
 
     /* Gallery layout */
     .gallery {
-      display: flex;
-      gap: 15px;
-      margin-top: 20px;
-      flex-wrap: wrap;
-    }
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap; /* allows images to move to next line if screen is small */
+  justify-content: space-between; /* optional, spaces images nicely */
+}
 
-    .gallery img {
-      width: calc(33% - 10px);
-      border-radius: 8px;
-      object-fit: cover;
-    }
+.gallery figure {
+  margin: 0;           /* remove default margins */
+  flex: 1 1 calc(33% - 10px); /* each figure takes ~1/3 of row */
+  display: flex;
+  flex-direction: column; /* stack img and caption vertically */
+}
+
+.gallery img {
+  width: 100%;         /* image fills figure */
+  border-radius: 8px;
+  object-fit: cover;
+  display: block;
+}
+
+.gallery figcaption {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #555;
+  margin-top: 5px;
+}
+
 
     /* Bottom image */
     .bottom-image {
