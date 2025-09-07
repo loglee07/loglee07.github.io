@@ -1,13 +1,4 @@
-/* Reset */
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background: #f8f9fa;
-  color: #333;
-}
-
-/* Fixed header */
-/* Basic Reset */
+/* Reset & base */
 * {
   margin: 0;
   padding: 0;
@@ -16,9 +7,11 @@ body {
 
 body {
   font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
 }
 
-/* Header styling */
+/* Header */
 .site-header {
   display: flex;
   justify-content: space-between;
@@ -32,7 +25,7 @@ body {
 }
 
 .header-left {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   font-weight: bold;
 }
 
@@ -49,46 +42,65 @@ body {
   background-color: #d6d8db;
 }
 
-
 /* Main content */
 main {
-  padding-top: 90px; /* leave space for fixed header */
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 1.5rem;
+  padding: 40px 30px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-/* Blog cards */
+/* Blog grid */
+.blog-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+/* Blog card */
 .blog-card {
-  background: white;
-  border-radius: 12px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  padding: 1.5rem;
-  width: 280px;
-  text-align: left;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.blog-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0,0,0,0.15);
 }
 
 .blog-card h2 {
-  margin-top: 0;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
+  margin-bottom: 10px;
 }
 
 .blog-card p {
-  font-size: 0.9rem;
-  color: #666;
+  flex-grow: 1;
+  margin-bottom: 15px;
 }
 
-.blog-card a {
-  display: inline-block;
-  margin-top: 1rem;
-  padding: 0.5rem 1rem;
-  background: #0073e6;
-  color: white;
+.blog-card .read-more {
   text-decoration: none;
-  border-radius: 8px;
+  background-color: #007bff;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 5px;
+  text-align: center;
+  transition: background-color 0.3s;
 }
 
-.blog-card a:hover {
-  background: #005bb5;
+.blog-card .read-more:hover {
+  background-color: #0056b3;
+}
+
+/* Blog page content */
+.blog-content {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
 }
