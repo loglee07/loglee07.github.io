@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Blog Post #7: A Review of PrizePicks — Simple, Fun, and a Little Tricky</title>
+  <link rel="stylesheet" href="../style.css" />
+  <style>
+    .blog-content h1 {
+      text-align: center;
+      margin-bottom: 40px;
+      font-size: 2.2rem;
+    }
+    .blog-content h2 {
+      font-size: 1.6rem;
+      margin-top: 30px;
+      margin-bottom: 15px;
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 5px;
+    }
+    .blog-content p {
+      margin-bottom: 20px;
+      line-height: 1.7;
+    }
+    .blog-content p:first-of-type { text-indent: 20px; }
+    figure { margin: 18px 0; text-align: center; }
+    figure img { max-width: 700px; width: 100%; height: auto; border-radius: 8px; }
+    figcaption { font-size: 0.9rem; color:#555; margin-top:6px; }
+    .source-links {
+      background:#f3f5f7; border:1px solid #e1e5ea; padding:14px; border-radius:8px; margin-top:20px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="header-left">Logan Lee's Blogs</div>
+    <div class="header-right">
+      <a href="../index.html" class="home-button">Home</a>
+    </div>
+  </header>
+
+  <!-- Blog content -->
+  <main>
+    <div class="blog-content">
+
+      <h1>Blog Post #7: A Review of PrizePicks — Simple, Fun, and a Little Tricky</h1>
+
+      <p>There are DFS apps everywhere now, and one of the biggest ones is PrizePicks. The app has grown very fast because of how easy it is to use and how it mixes sports knowledge with quick bets. But while it’s fun, I do not think PrizePicks is the best choice if you really want to win a lot of money. In this post, I will share my experience using the app, why it is so tempting, and why I think it can be a problem for new players.</p>
+
+      <h2>An Easy to Use App</h2>
+
+      <figure>
+        <img src="../images/prizepicks-home.jpg" alt="PrizePicks main screen with player lines and icons" />
+        <figcaption>The main screen of PrizePicks shows player lines and small icons instead of normal betting odds.</figcaption>
+      </figure>
+
+      <p>I will give PrizePicks some credit because it is very beginner friendly. The layout is bright, clean, and easy to use. You do not see confusing numbers and odds like on sportsbooks such as <a href="https://www.draftkings.com/" target="_blank" rel="noopener">DraftKings</a> or <a href="https://www.fanduel.com/" target="_blank" rel="noopener">FanDuel</a>. Instead, PrizePicks uses icons to show which lines are better or worse. A green goblin means the line has worse odds, and a red demon means the line has better odds. It is a smart design that keeps the screen simple and easy to read.</p>
+
+      <p>Because of this, new players can sign up and understand how to play right away. You just pick whether a player will go over or under a number for a certain stat like points, rebounds, or passing yards. You do not need to think about hard math or line movement. The app is clear and simple, and it does that part really well.</p>
+
+      <h2>The Good: Deals and Simplicity</h2>
+
+      <figure>
+        <img src="../images/prizepicks-deal.jpg" alt="Friday profit boost banner example" />
+        <figcaption>PrizePicks has special deals like the Friday profit boost to keep players interested.</figcaption>
+      </figure>
+
+      <p>One of the things I like about PrizePicks is how they give small rewards to keep people engaged. For example, they have a Friday special where you can earn a 40 percent boost in profit if you “flex” your play. Flexing means you can still win some money even if you do not get every pick correct. It is a nice deal that makes playing on the weekend more exciting.</p>
+
+      <p>The overall look and feel for casual players is great. The app loads quickly, the graphics are smooth, and it feels very professional. PrizePicks also includes almost every sport, from the NBA and NFL to eSports and even college games. For someone who just wants to make a few picks while watching a game, it is a great app.</p>
+
+      <p>You can visit the <a href="https://www.prizepicks.com/" target="_blank" rel="noopener">official PrizePicks website</a> to see how simple it looks.</p>
+
+      <h2>The Bad: Easy to Fall for Tricks</h2>
+
+      <figure>
+        <img src="../images/prizepicks-popular.jpg" alt="PrizePicks popular page with trending picks" />
+        <figcaption>The Popular page can lead new users to pick players using bad or old stats.</figcaption>
+      </figure>
+
+      <p>Even though the app is simple, it is also easy to lose money. PrizePicks often shows the last five stats for a player, and this can trick people into thinking that the trend will continue. The app also has a Popular page that shows the players most people are picking, but those lines are usually changed to be harder to win.</p>
+
+      <p>Because of this, it is easy for new players to fall into what I call “PrizePicks traps.” The app is made to keep you playing, and sometimes it feels like it is meant more for fun than for actually winning. I like looking at numbers and strategies, and I have learned that following the crowd or trusting the “last 5 stats” is usually a bad idea.</p>
+
+      <h2>The Bigger Picture</h2>
+
+      <p>For casual players, PrizePicks is fun and safe if you play in moderation. But for people who want to make serious money or invest in DFS, it is not the best option. The payouts are smaller than most sportsbooks, and the chances of winning big are low.</p>
+
+      <p>Still, I think the app has helped the DFS community grow. It brings in new fans, makes things easier, and gets more people involved even if they have never played fantasy sports before. But as <a href="https://www.espn.com/chalk/story/_/id/14791813/daily-fantasy-origin-hatred-daily-fantasy-sports" target="_blank" rel="noopener">ESPN’s article on DFS</a> explains, the line between gaming and gambling is very thin. Apps like PrizePicks walk that line every day.</p>
+
+      <p>If you do use the app, I suggest checking out the <a href="https://www.ncpgambling.org/" target="_blank" rel="noopener">National Council on Problem Gambling</a> for tips on how to track your spending and stay responsible.</p>
+
+      <h2>Verdict</h2>
+
+      <p>PrizePicks is the most beginner friendly DFS app I have used. It is bright, fast, and easy to understand. The green goblin and red demon icons are creative, and the Friday profit boost is a fun touch. But it is also easy to get caught by the Popular page or by misleading stats. In my opinion, PrizePicks is perfect for casual fun, but not for serious players who want to win big.</p>
+
+      <!-- Optional video embed for a third mode (text + images + video) -->
+      <figure>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/tZr4DgCqU7Y" title="PrizePicks App Review" frameborder="0" allowfullscreen></iframe>
+        <figcaption>Short video review to complement this critique.</figcaption>
+      </figure>
+
+      <div class="source-links">
+        <strong>Links and Sources</strong>
+        <ul>
+          <li><a href="https://www.prizepicks.com/" target="_blank" rel="noopener">PrizePicks Official Website</a></li>
+          <li><a href="https://www.espn.com/chalk/story/_/id/14791813/daily-fantasy-origin-hatred-daily-fantasy-sports" target="_blank" rel="noopener">ESPN: The Origin of Hatred for Daily Fantasy Sports</a></li>
+          <li><a href="https://www.ncpgambling.org/" target="_blank" rel="noopener">National Council on Problem Gambling</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </main>
+
+</body>
+</html>
